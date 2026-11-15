@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'DM Sans', system-ui, sans-serif; color: #103d42; background: #f5f3eb; }
+a { color: inherit; }
+button, input, select { font: inherit; }
+button, a, input, select { touch-action: manipulation; }
+:focus-visible { outline: 3px solid #e67142; outline-offset: 4px; }
