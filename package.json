@@ -1,0 +1,26 @@
+{
+  "name": "faro-napoli-film",
+  "version": "1.0.0",
+  "description": "FARO Napoli \u2014 a multi-agent civic AI concept connecting housing, services and mobility",
+  "main": "index.js",
+  "scripts": {
+    "dev": "python3 -m http.server 8000 --directory docs"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@remotion/bundler": "4.0.543",
+    "@remotion/cli": "4.0.543",
+    "@remotion/player": "4.0.543",
+    "@remotion/renderer": "4.0.543",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.543"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "puppeteer-core": "25.17.0",
+    "typescript": "7.0.2"
+  }
+}
